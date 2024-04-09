@@ -12,13 +12,13 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 09 Apr 2024 17:46:56 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 09 Apr 2024 23:12:36 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5</generator>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2024/04/cropped-android-chrome-512x512-2-32x32.png</url>
@@ -77,8 +77,8 @@
 			</item>
 		<item>
 		<title>April 8th 2024 &#8211; Morning</title>
-		<link>/april-8th-2024/</link>
-					<comments>/april-8th-2024/#respond</comments>
+		<link>/april-8th-2024-morning/</link>
+					<comments>/april-8th-2024-morning/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 09 Apr 2024 03:13:07 +0000</pubDate>
@@ -94,7 +94,7 @@
 <figure class="wp-block-image size-full"><img decoding="async" width="940" height="788" src="/wp-content/uploads/2024/04/april8th2024_daily_devotional-1.png" alt="" class="wp-image-20" srcset="/wp-content/uploads/2024/04/april8th2024_daily_devotional-1.png 940w, /wp-content/uploads/2024/04/april8th2024_daily_devotional-1-300x251.png 300w, /wp-content/uploads/2024/04/april8th2024_daily_devotional-1-768x644.png 768w" sizes="(max-width: 940px) 100vw, 940px" /></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/april-8th-2024/feed/</wfw:commentRss>
+					<wfw:commentRss>/april-8th-2024-morning/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
