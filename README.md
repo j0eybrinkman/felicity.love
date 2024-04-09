@@ -1,1 +1,1 @@
-# felicity.love
+# felicity.love is a daily devotional website for practicing the christian faith inspired by my friend Felicity whom I love dearly.
