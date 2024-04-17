@@ -7,3 +7,32 @@
     background-color: #9b1c31;
     background-image: linear-gradient(120deg, #9b1c31, #4b0063);
 }
+
+.main-content h1 {
+    color: #202020;
+}
+
+// featured image re-sizing
+
+// p img {
+//     width: 80%;
+// }
+
+@media (min-width: 780px) {
+    p img {
+        width: 20%;
+    }
+}
+
+@media (min-width: 380px) {
+
+    p img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 380px) {
+    main {
+        text-align: center;
+    }
+}
