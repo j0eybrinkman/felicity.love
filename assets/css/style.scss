@@ -1,0 +1,50 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+    background-color: #9b1c31;
+    background-image: linear-gradient(120deg, #9b1c31, #4b0063);
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+    color: #202020;
+}
+
+a.back-to-home {
+    padding: 1rem;
+    background-color: rgba($color: #ccc, $alpha: .5);
+    border-radius: 12px;
+}
+
+a.back-to-home:hover {
+    padding: 1.2rem;
+    text-decoration: none;
+}
+// featured image re-sizing
+
+// p img {
+//     width: 80%;
+// }
+
+@media (min-width: 780px) {
+    p img {
+        width: 20%;
+    }
+}
+
+@media (min-width: 430px) {
+
+    p img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 430px) {
+    main {
+        text-align: center;
+    }
+}
