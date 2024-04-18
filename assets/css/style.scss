@@ -8,10 +8,22 @@
     background-image: linear-gradient(120deg, #9b1c31, #4b0063);
 }
 
-.main-content h1 {
+.main-content h1,
+.main-content h2,
+.main-content h3 {
     color: #202020;
 }
 
+a.back-to-home {
+    padding: 1rem;
+    background-color: rgba($color: #ccc, $alpha: .5);
+    border-radius: 12px;
+}
+
+a.back-to-home:hover {
+    padding: 1.2rem;
+    text-decoration: none;
+}
 // featured image re-sizing
 
 // p img {
@@ -24,14 +36,14 @@
     }
 }
 
-@media (min-width: 380px) {
+@media (min-width: 430px) {
 
     p img {
         width: 50%;
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 430px) {
     main {
         text-align: center;
     }
