@@ -19,3 +19,5 @@ base-url: felicity.love
 #       layout: post
 
 permalink: /:year/:month/:day/:title/
+
+google_analytics: [G-8KHYV9WHEN]
