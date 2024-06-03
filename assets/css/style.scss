@@ -18,13 +18,15 @@ img {
     color: #202020;
 }
 
-a.back-to-home {
+a.back-to-home,
+a.back-to-top {
     padding: 1rem;
     background-color: rgba($color: #ccc, $alpha: .5);
     border-radius: 12px;
 }
 
-a.back-to-home:hover {
+a.back-to-home:hover,
+a.back-to-top {
     padding: 1.2rem;
     text-decoration: none;
 }
