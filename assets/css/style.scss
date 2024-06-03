@@ -53,12 +53,17 @@ a.back-to-home:hover {
 // banner ad
 
 .banner-ad {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; /* Adjust the margin as needed */
+    position: fixed;
+    top: 50%; /* Position halfway down the viewport */
+    right: 0;
+    transform: translateY(-50%); /* Center vertically */
+    background-color: #f8f8f8;
+    padding: 10px;
+    z-index: 1000; /* Ensure it's above other content */
 }
 
 .banner-ad img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
