@@ -33,13 +33,7 @@
 
       <h1 class="project-name">{{ site.title }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="#disclaimers" class="btn">Disclaimer</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
+      <a href="#disclaimers" class="btn">Disclaimer</a>
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -60,7 +54,8 @@
         <div id="disclaimers">
           <p>Affiliate Disclaimer: This website contains affiliate links. We will earn a commission if you make a purchase through any of the affiliate links.</p>
           <p>Google Analytics Disclaimer: This website uses Google Analytics to help us understand how our readers engage with our content. Google Analytics collects information such as your IP address, browser type, referring/exit pages, and other data. This information helps us improve our blog and create content that serves our audience better.</p>
-        </div>        
+        </div>     
+        <a href="#top" class="btn">Back to Top</a>
     </main>
   </body>
 </html>
