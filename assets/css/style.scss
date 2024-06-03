@@ -48,3 +48,17 @@ a.back-to-home:hover {
         text-align: center;
     }
 }
+
+
+// banner ad
+
+.banner-ad {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.banner-ad img {
+    max-width: 100%;
+    height: auto;
+}
