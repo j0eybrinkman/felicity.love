@@ -67,3 +67,9 @@ a.back-to-home:hover {
     height: auto;
     display: block;
 }
+
+@media (max-width: 1200px) {
+    .banner-ad {
+        display: none;
+    }
+}
