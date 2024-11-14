@@ -2,8 +2,9 @@
 layout: default
 ---
 <main>
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+    <!-- <h1>{{ page.title }}</h1>
+    <p>{{ page.date | date_to_string }} - {{ page.author }}</p> -->
     {{ content }}
+    <br>
     <a href="{{ site.baseurl }}/" class="back-to-home">Back to Home</a>
 </main>

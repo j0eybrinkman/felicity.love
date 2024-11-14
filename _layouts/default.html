@@ -12,41 +12,74 @@
       gtag('config', '{{ site.google_analytics }}');
     </script>
     {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <!-- font -->
     {% include head-custom.html %}
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <div id="sticky-header">
+      <div>          <!-- banner ad -->
+        <a target="_blank" href="https://www.velvetrosestudios.com/"><img src="/img/ads/velvet_rose_studios/velvet_rose_studios_nov_sale.webp" alt=""/></a>
+        <!-- end of banner ad --> </div>
+        <nav>
+          <ul>
+            <li><a class="nav-link" href="/">Home</a></li>
+            <li><a class="nav-link" href="#header">Top</a></li>
+            <li><a class="nav-link" href="#disclaimers">Disclaimer</a></li>
+        </nav>
+      </div>
 
-    <header class="page-header" role="banner">
+    </div>
+    <header id="header" class="page-header" role="banner">
       <!-- <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
 
-      <!-- banner ad -->
+      <!-- banner ad >
       <a target="_blank" href="https://shareasale.com/r.cfm?b=1495883&amp;u=4235121&amp;m=69959&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/69959/Northwest-Ad_728x90.jpg" border="0" /></a>
-      <!-- end of banner ad -->
+      end of banner ad -->
+
+
 
 
       <h1 id="top" class="project-name">{{ site.title }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <a href="#disclaimers" class="btn">Disclaimer</a>
     </header>
+
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
-      <aside class="banner-ad">
-        <a target="_blank" href="https://shareasale.com/r.cfm?b=1495903&amp;u=4235121&amp;m=69959&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/69959/nw-300x600.jpg" border="0" /></a>
+
+      <aside class="banner-ad left">
+        <a target="_blank" href="https://shareasale.com/r.cfm?b=1495903&amp;u=4235121&amp;m=69959&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/69959/nw-300x600.jpg" alt=""/></a>
+      </aside>
+
+      <aside class="banner-ad right">
+        <a target="_blank" href="https://shareasale.com/r.cfm?b=1495903&amp;u=4235121&amp;m=69959&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/69959/nw-300x600.jpg" alt=""/></a>
       </aside>
 
       <footer class="site-footer">
-        <!-- banner ad -->
+        <!-- banner ad 
         <a target="_blank" href="https://shareasale.com/r.cfm?b=1495883&amp;u=4235121&amp;m=69959&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/69959/Northwest-Ad_728x90.jpg" border="0" /></a>
-        <!-- end of banner ad -->
+         end of banner ad -->
+         
+      <!-- banner ad -->
+         <a target="_blank" href="https://www.velvetrosestudios.com/"><img src="/img/ads/velvet_rose_studios/velvet_rose_studios_nov_sale.webp" alt=""/></a>
+      <!-- end of banner ad --> 
+
+
         <!-- {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
