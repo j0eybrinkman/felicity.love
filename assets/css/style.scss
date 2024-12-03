@@ -9,6 +9,17 @@ body {
     line-height: 1.2;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    max-width: 800px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
 img {
     max-width: 100%;
     border: 0;
