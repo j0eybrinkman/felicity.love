@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+  <!-- head 
+   -->
   <head>
+    <!-- character encoding -->
     <meta charset="UTF-8">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -15,8 +18,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- styles -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <!-- font -->
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
@@ -25,32 +29,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cedarville+Cursive&display=swap" rel="stylesheet">
-    <!-- font -->
      <!-- adsense -->
      <meta name="google-adsense-account" content="ca-pub-5901945578423494">
+    <!-- jekyll custom html layout, would probably be best practice to put analytics and stuff there instead of here but oh well -->
     {% include head-custom.html %}
   </head>
+  <!-- body 
+   -->
   <body>
+    <!-- hidden anchor 
+     -->
     <span id="top"></span>
+    <!-- sticky header 
+     -->
     <div id="sticky-header">
       <div>          <!-- banner ad -->
-        <a target="_blank" href="https://www.velvetrosestudios.com/"><img src="/img/ads/velvet_rose_studios/velvet_rose_studios_nov_sale.webp" alt=""/></a>
-        <!-- end of banner ad --> </div>
+        <a target="_blank" href="linktr.ee/velvetrosestudios"><img src="/img/ads/velvet_rose_studios/velvet_rose_december2024_ad.webp" alt=""/></a>
+        <!-- end of banner ad --> 
+      </div>
         <nav>
           <ul>
             <li><a class="nav-link" href="/">Home</a></li>
             <li><a class="nav-link" href="#top">Top</a></li>
             <li><a class="nav-link" href="#disclaimers">Disclaimer</a></li>
         </nav>
-      </div>
-
     </div>
+    <!-- header 
+     -->
     <header id="header" class="page-header" role="banner">
-      <!-- <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
+      <!-- 
+      
+      titles
 
-      <!-- banner ad >
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1> 
+      -->
+
+      <!-- 
+      
+      banner ad
+
       <a target="_blank" href="https://shareasale.com/r.cfm?b=1495883&amp;u=4235121&amp;m=69959&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/69959/Northwest-Ad_728x90.jpg" border="0" /></a>
-      end of banner ad -->
+      end of banner ad
+      -->
 
 
 
@@ -58,40 +78,48 @@
       <h1 id="top" class="project-name">{{ site.title }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
-
-
+    <!-- main
+      -->
     <main id="content" class="main-content" role="main">
       {{ content }}
-
+      <!-- 
+      
+      northwest registered agent affiliate ads
 
       <aside class="banner-ad left">
         <a target="_blank" href="https://shareasale.com/r.cfm?b=1495903&amp;u=4235121&amp;m=69959&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/69959/nw-300x600.jpg" alt=""/></a>
       </aside>
-
       <aside class="banner-ad right">
         <a target="_blank" href="https://shareasale.com/r.cfm?b=1495903&amp;u=4235121&amp;m=69959&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/69959/nw-300x600.jpg" alt=""/></a>
-      </aside>
-
-      <footer class="site-footer">
-        <!-- banner ad 
-        <a target="_blank" href="https://shareasale.com/r.cfm?b=1495883&amp;u=4235121&amp;m=69959&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/69959/Northwest-Ad_728x90.jpg" border="0" /></a>
-         end of banner ad -->
-         
-      <!-- banner ad 
-         <a target="_blank" href="https://www.velvetrosestudios.com/"><img src="/img/ads/velvet_rose_studios/velvet_rose_studios_nov_sale.webp" alt=""/></a>
-       end of banner ad --> 
-
-
-        <!-- {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span> -->
-        <div id="disclaimers">
-          <p>Affiliate Disclaimer: This website contains affiliate links. We will earn a commission if you make a purchase through any of the affiliate links.</p>
-          <p>Google Analytics Disclaimer: This website uses Google Analytics to help us understand how our readers engage with our content. Google Analytics collects information such as your IP address, browser type, referring/exit pages, and other data. This information helps us improve our blog and create content that serves our audience better.</p>
-          <p>The code to this web page is publicly viewable on my <a href="https://github.com/j0eybrinkman/felicity.love" target="_blank">github</a></p>
-        </div>     
-        <a href="#top" class="back-to-top">Back to Top</a>
+      </aside> 
+      -->
     </main>
+    <!-- footer
+      -->
+    <footer class="site-footer">
+      <!-- 
+      
+      banner ad 
+      
+      <a target="_blank" href="https://shareasale.com/r.cfm?b=1495883&amp;u=4235121&amp;m=69959&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/69959/Northwest-Ad_728x90.jpg" border="0" /></a>
+       end of banner ad 
+      
+       <a target="_blank" href="https://www.velvetrosestudios.com/"><img src="/img/ads/velvet_rose_studios/velvet_rose_studios_nov_sale.webp" alt=""/></a>
+     end of banner ad 
+      -->
+
+
+      <!-- {% if site.github.is_project_page %}
+        <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+      {% endif %}
+      <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span> 
+      -->
+      <div id="disclaimers">
+        <p>Affiliate Disclaimer: This website contains affiliate links. We will earn a commission if you make a purchase through any of the affiliate links.</p>
+        <p>Google Analytics Disclaimer: This website uses Google Analytics to help us understand how our readers engage with our content. Google Analytics collects information such as your IP address, browser type, referring/exit pages, and other data. This information helps us improve our blog and create content that serves our audience better.</p>
+        <p>The code to this web page is publicly viewable on my <a href="https://github.com/j0eybrinkman/felicity.love" target="_blank">github</a></p>
+      </div>     
+      <a href="#top" class="back-to-top">Back to Top</a>
+    </footer>
   </body>
 </html>

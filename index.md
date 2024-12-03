@@ -11,7 +11,9 @@ layout: default
     </a> 
   </div>
   <!-- banner ad -->
-  <div><a target="_blank" href="https://www.velvetrosestudios.com/"><img src="../img/ads/velvet_rose_studios/velvet_rose_studios_nov_sale.webp" alt=""/></a></div>
+  <div>
+      <a target="_blank" href="linktr.ee/velvetrosestudios"><img src="/img/ads/velvet_rose_studios/velvet_rose_december2024_ad.webp" alt=""/></a>
+  </div>
   <!-- end of banner ad --> 
 {% endfor %}
 
