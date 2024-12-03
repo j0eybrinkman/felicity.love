@@ -12,7 +12,7 @@ layout: default
   </div>
   <!-- banner ad -->
   <div>
-      <a target="_blank" href="linktr.ee/velvetrosestudios" onClick="adClick(); return true;"><img src="/img/ads/velvet_rose_studios/velvet_rose_december2024_ad.webp" alt=""/></a>
+      <a target="_blank" href="https://linktr.ee/velvetrosestudios" onClick="adClick(); return true;"><img src="/img/ads/velvet_rose_studios/velvet_rose_december2024_ad.webp" alt=""/></a>
   </div>
   <!-- end of banner ad --> 
 {% endfor %}
